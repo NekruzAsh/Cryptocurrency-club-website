@@ -11,7 +11,7 @@ export const metadata = {
 //components
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
-
+import Research from "./components/Research";
 
 
 export default function RootLayout({ children }) {
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         
         <Navbar />
         <LandingPage />
-        
+        <Research />
         
         
         {children}</body>

@@ -5,14 +5,14 @@ const LandingPage = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center">
-        <div className="grid grid-cols-1 lg:grid lg:grid-cols-2 gap-8">
+        <div className="mt-44 md:mt-0 grid grid-cols-1 md:grid md:grid-cols-2 gap-16">
           <div className="text-left">
             <div>
               <h3 className="uppercase text-[#FF204E]">
                 University of Cincinnati
               </h3>
               <h1 className="flex text-white items-center">
-                Cryptocurrency Club
+                Crypto Club
               </h1>
             </div>
             <div className="mt-6">
@@ -33,13 +33,11 @@ const LandingPage = () => {
               </button>
             </div>
           </div>
-          <div style={{ transform: "scale(0.8)", transformOrigin: "0 0" }}>
+          <div>
             <iframe
-              className="rounded-lg shadow-lg"
-              src="https://my.spline.design/bitcoinhit50k-f566bc6dd14d1392fd710e0944bdbe8d/"
+              className="rounded-lg shadow-lg w-[350px] h-[280px] md:w-[360px] md:h-[355px] lg:w-[500px] lg:h-[355px]"
+              src="https://my.spline.design/bitcoinhit50k-d9b079432970913af1319d5298f226fb/"
               frameborder="0"
-              width="125%"
-              height="125%"
             ></iframe>
           </div>
         </div>
