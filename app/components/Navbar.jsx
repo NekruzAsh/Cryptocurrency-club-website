@@ -10,8 +10,8 @@ const Navbar = () => {
             className="ml-4"
             src="/images/crypto_logo.svg"
             alt="UC Cryptocurrency Club"
-            width={40}
-            height={40}
+            width={50}
+            height={50}
         
         />
       </div>
