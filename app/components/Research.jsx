@@ -1,24 +1,80 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import "../globals.css";
 
 const Research = () => {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
-      <div className="max-w-[1240px] m-auto gap-8">
-        <p className="text-center">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
-          ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
-          ea voluptate velit esse quam nihil molestiae consequatur, vel illum
-          qui dolorem eum fugiat quo voluptas nulla pariatur
+    <div id="research" className="w-full md:h-screen p-2 flex">
+      <div className="max-w-[1240px] m-auto items-center">
+        <div className="mb-12">
+        <h2 className="text-[#cfcfcf] mb-2">
+          Check out our latest research
+        </h2>
+        <p className="text-[#707173] box w-[500px]">
+          Our research is focused on the latest trends in the cryptocurrency market.
+          We are constantly updating our research to provide the most accurate
+          information to our members. We are also working on a few projects
+          that will be released soon. Stay tuned!
         </p>
+        </div>
+        <div className="carousel rounded-lg w-[800px] h-72">
+          <div id="slide1" className="carousel-item relative w-full">
+            <img
+              src="http://placehold.it/150x150"
+              className="w-full"
+            />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" className="btn btn-circle text-[#FF204E]">
+                ❮
+              </a>
+              <a href="#slide2" className="btn btn-circle text-[#FF204E]">
+                ❯
+              </a>
+            </div>
+          </div>
+          <div id="slide2" className="carousel-item relative w-full">
+            <img
+              src="http://placehold.it/150x150"
+              className="w-full"
+            />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" className="btn btn-circle text-[#FF204E]">
+                ❮
+              </a>
+              <a href="#slide3" className="btn btn-circle text-[#FF204E]">
+                ❯
+              </a>
+            </div>
+          </div>
+          <div id="slide3" className="carousel-item relative w-full">
+            <img
+              src="http://placehold.it/150x150"
+              className="w-full"
+            />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" className="btn btn-circle text-[#FF204E]">
+                ❮
+              </a>
+              <a href="#slide4" className="btn btn-circle text-[#FF204E]">
+                ❯
+              </a>
+            </div>
+          </div>
+          <div id="slide4" className="carousel-item relative w-full">
+            <img
+              src="http://placehold.it/150x150"
+              className="w-full"
+            />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" className="btn btn-circle text-[#FF204E]">
+                ❮
+              </a>
+              <a href="#slide1" className="btn btn-circle text-[#FF204E]">
+                ❯
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

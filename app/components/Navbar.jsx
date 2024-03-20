@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
           <ul tabIndex={0} className="menu menu-sm dropdown-content right-0 mt-3 z-[1] p-2 shadow backdrop-filter backdrop-blur-xl bg-opacity-40 bg-[#1c1d21] rounded-box w-52">
             <li className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors"><a>Home</a></li>
             <li>
-              <a className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors">Research</a>
+              <Link href="/#research" className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors">Research</Link>
               <ul className="p-2">
                 <li><a>Submenu 1</a></li>
                 <li><a>Submenu 2</a></li>

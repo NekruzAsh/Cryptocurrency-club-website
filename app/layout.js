@@ -13,18 +13,17 @@ import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import Research from "./components/Research";
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={rubik.className}>
-        
         <Navbar />
         <LandingPage />
         <Research />
-        
-        
-        {children}</body>
+
+        {children}
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+      </body>
     </html>
   );
 }
