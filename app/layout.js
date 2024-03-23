@@ -13,6 +13,8 @@ import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import Research from "./components/Research";
 import StickyLinks from "./components/StickyLinks";
+import About from "./components/About";
+import ClubResearch from "./components/ClubResearch";
 
 export default function RootLayout({ children }) {
   return (
@@ -22,6 +24,9 @@ export default function RootLayout({ children }) {
         <StickyLinks />
         <LandingPage />
         <Research />
+        <About />
+        <ClubResearch />
+
 
         {children}
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
