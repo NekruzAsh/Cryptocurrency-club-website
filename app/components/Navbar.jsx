@@ -23,10 +23,10 @@ const Navbar = () => {
           <ul tabIndex={0} className="menu menu-sm dropdown-content right-0 mt-3 z-[1] p-2 shadow backdrop-filter backdrop-blur-xl bg-opacity-40 bg-[#1c1d21] rounded-box w-52">
             <li className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors"><a>Home</a></li>
             <li>
-              <Link href="/#research" className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors">Research</Link>
+              <a href="/#research" className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors">Research</a>
               <ul className="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
+                <li><a>Latest Research</a></li>
+                <li><a>All Research</a></li>
               </ul>
             </li>
             <li className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors"><a>About us</a></li>
@@ -41,8 +41,8 @@ const Navbar = () => {
             <details>
               <summary className="uppercase rounded-full text-[#6e7273] hover:text-[#FF204E] transition-colors">Research</summary>
               <ul className="p-2 backdrop-filter backdrop-blur-lg bg-opacity-30 bg-[#1c1d21]">
-                <li><a className="rounded-full">Submenu 1</a></li>
-                <li><a className="rounded-full">Submenu 2</a></li>
+                <li><a href="/#research" className="rounded-full">Latest Research</a></li>
+                <li><a className="rounded-full">All Research</a></li>
               </ul>
             </details>
           </li>
