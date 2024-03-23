@@ -62,7 +62,7 @@ html {
   left: 0;
   width: 400%;
   height: 100%;
-  background: linear-gradient(115deg,#FF204E,#ff6181,#ff0947,#FF204E,#FF204E);
+  background: linear-gradient(115deg,#FF204E,#400000,#4e0000,#bf0000, #FF204E);
   background-size: 25% 100%;
   animation: an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop .75s linear infinite;
   animation-play-state: paused;
