@@ -5,16 +5,19 @@ import "../globals.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar z-[100] fixed backdrop-filter backdrop-blur-xl bg-opacity-60 bg-[#1c1d21] top-10 left-0 right-0 w-[380px] md:w-[600px] lg:w-[800px] h-10 mx-auto rounded-full">
+    // Navbar component
+    <div className="navbar z-[100] fixed backdrop-filter backdrop-blur-xl bg-opacity-70 bg-[#1c1d21] top-10 left-0 right-0 w-[380px] md:w-[600px] lg:w-[800px] h-7 mx-auto rounded-full">
       <div className="navbar-start">
+        <Link href="/#home">
         <Image
-            className="ml-3 mt-1"
-            src="/images/crypto_logo.svg"
+            className="ml-1 hover:animate-spin duration-500"
+            src="/images/nav.png"
             alt="UC Cryptocurrency Club"
             width={40}
             height={40}
         
         />
+        </Link>
       </div>
       <div className="navbar-end">
         <div className="dropdown">

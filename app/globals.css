@@ -129,8 +129,8 @@ html {
 .donate {
   position: relative;
   overflow: hidden;
-  height: 3rem;
-  padding: 0 2rem;
+  height: 2.6rem;
+  padding: 0 1.8rem;
   border-radius: 1.5rem;
   background: #494a4e;
   background-size: 400%;
@@ -169,8 +169,8 @@ html {
 
 .contact {
   display: inline-block;
-  height: 3rem;
-  padding: 0 2rem;
+  height: 2.6rem;
+  padding: 0 1rem;
   text-align: center;
   color: #6e7273;
   background-color: #1e1f21;

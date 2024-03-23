@@ -12,12 +12,14 @@ export const metadata = {
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import Research from "./components/Research";
+import StickyLinks from "./components/StickyLinks";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={rubik.className}>
         <Navbar />
+        <StickyLinks />
         <LandingPage />
         <Research />
 
