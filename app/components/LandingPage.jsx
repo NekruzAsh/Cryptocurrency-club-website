@@ -35,11 +35,13 @@ const LandingPage = () => {
             </div>
           </div>
           <div>
+            <div className="flex items-center justify-center">
             <iframe
               className="rounded-lg shadow-lg w-[350px] h-[280px] md:w-[360px] md:h-[355px] lg:w-[500px] lg:h-[355px]"
               src="https://my.spline.design/bitcoinhit50k-d9b079432970913af1319d5298f226fb/"
               frameborder="0"
             ></iframe>
+            </div>
           </div>
         </div>
       </div>
