@@ -43,7 +43,7 @@ const LandingPage = () => {
           <div>
             <div className="z-10 relative flex items-center justify-center">
               <iframe
-                className="rounded-lg shadow-lg w-[350px] h-[280px] md:w-[360px] md:h-[355px] lg:w-[500px] lg:h-[390px]"
+                className="rounded-lg shadow-lg w-[390px] h-[280px] md:w-[360px] md:h-[355px] lg:w-[500px] lg:h-[390px]"
                 src="https://my.spline.design/bitcoinhit50k-d9b079432970913af1319d5298f226fb/"
                 frameborder="0"
               ></iframe>

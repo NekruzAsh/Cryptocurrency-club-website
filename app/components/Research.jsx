@@ -8,7 +8,7 @@ const Research = () => {
     <div id="research" className="w-full md:h-screen p-2 flex">
       <div className="max-w-[1240px] m-auto items-center text-center">
         <div className="mb-12 mt-12 md:mt-0">
-          <h2 className="text-[#cfcfcf] mb-2">Check out our latest research</h2>
+          <h2 className="text-[#cfcfcf] mb-2">Check out our latest lab research</h2>
           <p className="text-[#707173] mx-auto text-lg box w-[350px] md:w-[500px] lg:w-[600px]">
             Our research is focused on the latest trends in the cryptocurrency
             market. We are also working on a few projects that will be released
@@ -30,15 +30,6 @@ const Research = () => {
               <Link href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4757280" target="_blank">
               <img
                 src="/images/3.png"
-                className="rounded-box w-[370px] h-[370px] md:w-[400px] md:h-[400px]"
-              />
-              </Link>
-            </div>
-            <div id="item3" className="carousel-item">
-              <Link href="" target="_blank">
-              <img
-                src="/images/1.png"
-                alt="research 1"
                 className="rounded-box w-[370px] h-[370px] md:w-[400px] md:h-[400px]"
               />
               </Link>

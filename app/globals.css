@@ -125,3 +125,57 @@ html {
 .owl-nav .owl-next {
   right: -30px;
 }
+
+.donate {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #494a4e;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.donate:hover::before {
+  transform: scaleX(1);
+}
+
+.donate-content {
+  position: relative;
+  z-index: 1;
+}
+
+.donate::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(197, 37, 37) 10.8%,
+    rgb(255, 32, 78) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+
+.contact {
+  display: inline-block;
+  height: 3rem;
+  padding: 0 2rem;
+  text-align: center;
+  color: #6e7273;
+  background-color: #1e1f21;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  background-size: 400%;
+}
