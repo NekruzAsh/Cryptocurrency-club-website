@@ -25,7 +25,7 @@ const Navbar = () => {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 transform scale-x-[-1] text-[#FF204E]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </div>
           <ul tabIndex={0} className="menu menu-sm dropdown-content right-0 mt-3 z-[1] p-2 shadow backdrop-filter backdrop-blur-xl bg-opacity-40 bg-[#1c1d21] rounded-box w-52">
-          <li className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors"><a className="rounded-full">Featured</a></li>
+          <li className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors"><a>Featured</a></li>
             <li>
               <a href="/#research" className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors">Research</a>
               <ul className="p-2">
@@ -49,8 +49,8 @@ const Navbar = () => {
             <details>
               <summary className="uppercase rounded-full text-[#6e7273] hover:text-[#FF204E] transition-colors">Research</summary>
               <ul className="p-2 backdrop-filter backdrop-blur-lg bg-opacity-30 bg-[#1c1d21]">
-                <li><a href="/#research" className="rounded-full">Lab Research</a></li>
-                <li><a className="rounded-full">Club Research</a></li>
+                <li><a href="/#research">Lab Research</a></li>
+                <li><a href="/#clubresearch">Club Research</a></li>
               </ul>
             </details>
           </li>
