@@ -1,8 +1,10 @@
 import React from "react";
+import "../globals.css";
 
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen flex flex-col items-center justify-center">
+    
       <div className="mt-48 mb-36">
       <h2 className="text-[#cfcfcf] text-center mb-2">
         Meet our team

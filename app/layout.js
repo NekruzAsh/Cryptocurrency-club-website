@@ -15,6 +15,7 @@ import Research from "./components/Research";
 import StickyLinks from "./components/StickyLinks";
 import About from "./components/About";
 import ClubResearch from "./components/ClubResearch";
+import Donation from "./components/Donation";
 
 export default function RootLayout({ children }) {
   return (
@@ -26,7 +27,7 @@ export default function RootLayout({ children }) {
         <Research />
         <About />
         <ClubResearch />
-
+        <Donation />
 
         {children}
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
