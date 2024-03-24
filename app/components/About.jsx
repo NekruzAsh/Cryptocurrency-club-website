@@ -15,37 +15,37 @@ const About = () => {
       </div>
       <div className="max-w-[1240px] grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-12 lg:gap-24">
         <div className="avatar text-center">
-          <div className="w-40 mx-auto rounded-full ring ring-[#FF204E] ring-offset-base-100 ring-offset-2">
+          <div className="w-40 mx-auto rounded-full ring ring-[#ff2032] ring-offset-base-100 ring-offset-2">
             <img src="/images/1.jpg" />
           </div>
           <p>Team member description</p>
         </div>
         <div className="avatar text-center">
-          <div className="w-40 mx-auto rounded-full ring ring-[#FF204E] ring-offset-base-100 ring-offset-2">
+          <div className="w-40 mx-auto rounded-full ring ring-[#ff2032] ring-offset-base-100 ring-offset-2">
             <img src="/images/1.jpg" />
           </div>
           <p>Team member description</p>
         </div>
         <div className="avatar text-center">
-          <div className="w-40 mx-auto rounded-full ring ring-[#FF204E] ring-offset-base-100 ring-offset-2">
+          <div className="w-40 mx-auto rounded-full ring ring-[#ff2032] ring-offset-base-100 ring-offset-2">
             <img src="/images/1.jpg" />
           </div>
           <p>Team member description</p>
         </div>
         <div className="avatar text-center">
-          <div className="w-40 mx-auto rounded-full ring ring-[#FF204E] ring-offset-base-100 ring-offset-2">
+          <div className="w-40 mx-auto rounded-full ring ring-[#ff2032] ring-offset-base-100 ring-offset-2">
             <img src="/images/1.jpg" />
           </div>
           <p>Team member description</p>
         </div>
         <div className="avatar text-center">
-          <div className="w-40 mx-auto rounded-full ring ring-[#FF204E] ring-offset-base-100 ring-offset-2">
+          <div className="w-40 mx-auto rounded-full ring ring-[#ff2032] ring-offset-base-100 ring-offset-2">
             <img src="/images/1.jpg" />
           </div>
           <p>Team member description</p>
         </div>
         <div className="avatar text-center">
-          <div className="w-40 mx-auto rounded-full ring ring-[#FF204E] ring-offset-base-100 ring-offset-2">
+          <div className="w-40 mx-auto rounded-full ring ring-[#ff2032] ring-offset-base-100 ring-offset-2">
             <img src="/images/1.jpg" />
           </div>
           <p>Team member description</p>
