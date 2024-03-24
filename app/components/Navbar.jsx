@@ -36,7 +36,7 @@ const Navbar = () => {
             <li className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors"><a href="/#about">About us</a></li>
             <div className="mt-4 items-center text-center">
           <button className="contact text-md uppercase hover:text-[#FF204E] transition-colors duration-500">Contact</button>
-          <button className="donate text-md uppercase mt-2"><div className="donate-content"><a>Donate</a></div></button>
+          <button className="donate text-md uppercase mt-2"><div className="donate-content"><a href="/#donation">Donate</a></div></button>
           </div>
           </ul>
         </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
           <li className="uppercase text-[#6e7273] hover:text-[#FF204E] transition-colors"><a className="rounded-full" href="/#about">About us</a></li>
           <div className="ml-4">
           <button className="contact text-md uppercase hover:text-[#FF204E] transition-colors duration-500">Contact</button>
-          <button className="donate text-md uppercase ml-2"><div className="donate-content"><a>Donate</a></div></button>
+          <button className="donate text-md uppercase ml-2"><div className="donate-content"><a href="/#donation">Donate</a></div></button>
           </div>
         </ul>
       </div>

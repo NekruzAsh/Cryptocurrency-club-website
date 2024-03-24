@@ -6,7 +6,7 @@ const ClubResearch = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center">
         <div className="flex flex-col w-full">
           <div className="mt-48">
-            <p className="text-[#FF204E]">From members of the club</p>
+            <p className="text-[#ff2032]">From members of the club</p>
           <h2 className="text-[#cfcfcf] mt-2">
             Club Research
           </h2>

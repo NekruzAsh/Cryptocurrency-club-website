@@ -2,11 +2,11 @@ import React from "react";
 
 const Donation = () => {
   return (
-    <div className="w-full md:h-screen flex justify-center">
+    <div id="donation" className="w-full md:h-screen flex justify-center">
       <div className="max-w-full items-center text-center">
-        <div class="mx-auto px-8">
+        <div class="mx-auto px-8 mt-32">
             <div className="mb-12">
-            <h2 className=" text-[#FF204E]">What's Next?</h2>
+            <h2 className=" text-[#ff2032]">What's Next?</h2>
             </div>
           <div class="relative isolate overflow-hidden bg-[#191a1e] px-6 py-24 shadow-xl rounded-2xl">
             <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold text-white sm:text-4xl">
@@ -33,7 +33,7 @@ const Donation = () => {
 
               <button
                 type="submit"
-                class="flex-none rounded-md text-white btn bg-[#FF204E]"
+                class="flex-none rounded-md text-white btn bg-[#ff2032]"
               >
                 <a href="" className="uppercase">
                 Donate
@@ -62,8 +62,8 @@ const Donation = () => {
                   gradientUnits="userSpaceOnUse"
                   gradientTransform="translate(512 512) rotate(90) scale(512)"
                 >
-                  <stop stop-color="#FF204E"></stop>
-                  <stop offset="1" stop-color="#FF204E" stop-opacity="0"></stop>
+                  <stop stop-color="#ff2032"></stop>
+                  <stop offset="1" stop-color="#ff2032" stop-opacity="0"></stop>
                 </radialGradient>
               </defs>
             </svg>
