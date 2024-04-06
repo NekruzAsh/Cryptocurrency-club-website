@@ -6,7 +6,8 @@ const Donation = () => {
       <div className="max-w-full items-center text-center">
         <div className="mx-auto px-8 mt-32">
             <div className="mb-12">
-            <h2 className=" text-[#ff2032]">What's Next?</h2>
+            <p className=" text-[#bbfe64] text-lg">What's Next?</p>
+            <h3 className="text-[#cfcfcf] text-xl">Please don't forget to support our members and faculty!</h3>
             </div>
           <div className="relative isolate overflow-hidden bg-[#191a1e] px-6 py-24 shadow-xl rounded-2xl">
             <h2 className="mx-auto max-w-2xl text-center text-3xl font-bold text-white sm:text-4xl">
