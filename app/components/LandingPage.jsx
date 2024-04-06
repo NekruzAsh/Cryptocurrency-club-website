@@ -15,7 +15,7 @@ const LandingPage = () => {
         <div className="mt-44 md:mt-0 grid grid-cols-1 md:grid md:grid-cols-2 gap-6 lg:gap-16">
           <div className="z-10 bg-[#030303] bg-opacity-70 rounded-lg p-4">
             <div className="text-left">
-              <h3 className="uppercase text-[#FF204E]">
+              <h3 className="uppercase text-[#bbfe64]">
                 University of Cincinnati
               </h3>
               <h1 className="flex uppercase text-white items-center">
@@ -28,10 +28,10 @@ const LandingPage = () => {
               </h1>
               <p className="mt-2 text-[#cfcfcf] text-md lg:text-lg box box-border lg:h-[120px] lg:w-[500px]">
                 The{" "}
-                <span className="text-[#FF204E]">UC Cryptocurrency Club</span>{" "}
+                <span className="text-[#bbfe64]">UC Cryptocurrency Club</span>{" "}
                 offers students hands-on learning in blockchain and{" "}
                 cryptocurrency, supported by industry donations. With access to{" "}
-                <span className="text-[#FF204E]">cutting-edge technology</span>{" "}
+                <span className="text-[#bbfe64]">cutting-edge technology</span>{" "}
                 and a dedicated fund, students are prepared for the digital
                 economy and drive innovation at UC.
               </p>
@@ -43,9 +43,8 @@ const LandingPage = () => {
           <div>
             <div className="z-10 relative flex items-center justify-center">
               <iframe
-                className="rounded-lg shadow-lg w-[390px] h-[280px] md:w-[360px] md:h-[355px] lg:w-[500px] lg:h-[390px]"
-                src="https://my.spline.design/bitcoinhit50k-d9b079432970913af1319d5298f226fb/"
-                frameborder="0"
+                className="rounded-lg shadow-lg w-[390px] h-[280px] md:w-[360px] md:h-[355px] lg:w-[600px] lg:h-[390px]"
+                src="https://my.spline.design/bitcoinhit50k-f566bc6dd14d1392fd710e0944bdbe8d/"
               ></iframe>
             </div>
           </div>
