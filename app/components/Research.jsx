@@ -34,13 +34,7 @@ const Research = () => {
               />
               </Link>
             </div>
-            <div id="item4" className="carousel-item">
-              <img
-                src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
-                className="rounded-box w-[370px] h-[370px] md:w-[400px] md:h-[400px]"
-              />
-            </div>
-          </div>
+       </div>
        </div>
         <div className="flex justify-center w-full py-2 gap-2">
             <a href="#item1" className="btn bg-[#191a1e] btn-xs hover:text-[#FF204E] transform duration-300">1</a> 
