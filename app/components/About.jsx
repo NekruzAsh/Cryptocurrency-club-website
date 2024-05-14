@@ -39,17 +39,17 @@ const About = () => {
     <div id="about" className="w-full flex justify-center items-center">
       <div className="max-w-[1240px] mx-auto">
         <motion.div
-          className="max-w-3xl"
+          className="max-w-3xl mx-auto"
           ref={ref}
           animate={animation}
           initial="hidden"
           variants={textVariants}
         >
-          <div className="mt-28">
-            <h2 className="text-[#cfcfcf] mx-auto">
-              <span className=" text-[#FF204E]">//&nbsp;</span> Meet our team
+          <div className="mt-28 text-center">
+            <h2 className="text-[#cfcfcf]">
+              <span className="text-[#FF204E]">//&nbsp;</span> Meet our team
             </h2>
-            <p className="text-lg text-[#707173] mx-auto text-center md:mx-0">
+            <p className="text-lg text-[#707173] mx-auto">
               Get to know the talented individuals shaping our vision
             </p>
           </div>
@@ -67,26 +67,26 @@ const About = () => {
               <h2 className="card-title">Truong (Jack) Luu</h2>
               <h4 className="text-[#bbfe64]">Research Team Lead</h4>
               <p className="text-sm text-[#cfcfcf]">
-                Truong (Jack) Luu is Ph.D. candidate in Information Systems. His
-                research focuses on understanding information privacy, trust,
-                and cybersecurity associated with disruptive technologies such
-                as sharing economy, blockchain, and AI. He has published, or has
-                forthcoming, research in the Journal of Management Information
-                Systems (JMIS), Computers in Human Behavior (CHB), and the
-                Journal of Information Science (JIS), Americas' Conference on
-                Information Systems (AMCIS), and Hawaii International Conference
-                on System Sciences (HICSS). He has been awarded the University
-                of Cincinnati's Digital Futures Fellowship for his work in
-                cybercrime in decentralized fintech research. In terms of
-                teaching, Jack enjoys teaching computer programming, applied
-                machine learning/AI, and cybersecurity courses at both
-                undergraduate and graduate levels.
+                Truong (Jack) Luu is a Ph.D. candidate in Information Systems,
+                researching information privacy, trust, and cybersecurity in
+                disruptive technologies like the sharing economy, blockchain,
+                and AI. His work has been published in the Journal of Management
+                Information Systems, Computers in Human Behavior, and the
+                Journal of Information Science, among others. He received the
+                University of Cincinnati's Digital Futures Fellowship for his
+                research on cybercrime in decentralized fintech. Jack teaches
+                computer programming, applied machine learning/AI, and
+                cybersecurity at both undergraduate and graduate levels.
               </p>
             </div>
           </div>
           <div className="card w-[450px] h-[550px] glass">
             <figure>
-              <img className="pt-8 rounded-lg h-80 w-96" src="/images/ben.jpg" alt="Ben" />
+              <img
+                className="pt-8 rounded-lg h-80 w-96"
+                src="/images/ben.jpg"
+                alt="Ben"
+              />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Benjamin Franks</h2>
@@ -96,42 +96,6 @@ const About = () => {
                 Cybersecurity and Blockchain technology. His goal as Treasurer
                 is the spread the possibilities of the blockchain to his peers.
               </p>
-            </div>
-          </div>
-          <div className="card w-96 glass">
-            <figure>
-              <img src="http://placehold.it/360x240" alt="car!" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Life hack</h2>
-              <p>How to park your car at your garage?</p>
-            </div>
-          </div>
-          <div className="card w-96 glass">
-            <figure>
-              <img src="http://placehold.it/360x240" alt="car!" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Life hack</h2>
-              <p>How to park your car at your garage?</p>
-            </div>
-          </div>
-          <div className="card w-96 glass">
-            <figure>
-              <img src="http://placehold.it/360x240" alt="car!" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Life hack</h2>
-              <p>How to park your car at your garage?</p>
-            </div>
-          </div>
-          <div className="card w-96 glass">
-            <figure>
-              <img src="http://placehold.it/360x240" alt="car!" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Life hack</h2>
-              <p>How to park your car at your garage?</p>
             </div>
           </div>
         </div>

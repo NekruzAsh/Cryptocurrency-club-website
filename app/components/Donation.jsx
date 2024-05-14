@@ -5,17 +5,20 @@ const Donation = () => {
     <div id="donation" className="w-full md:h-screen flex justify-center">
       <div className="max-w-full items-center text-center">
         <div className="mx-auto px-8 mt-32">
-            <div className="mb-12">
-            <p className=" text-[#bbfe64] text-lg">What's Next?</p>
-            <h3 className="text-[#cfcfcf] text-xl">Please don't forget to support our members and faculty!</h3>
-            </div>
+          <div className="mb-12">
+            <p className=" text-[#FF204E] text-lg">What's Next?</p>
+            <h3 className="text-[#cfcfcf] text-xl">
+              Please don't forget to support our members and faculty!
+            </h3>
+          </div>
           <div className="relative isolate overflow-hidden bg-[#191a1e] px-6 py-24 shadow-xl rounded-2xl">
             <h2 className="mx-auto max-w-2xl text-center text-3xl font-bold text-white sm:text-4xl">
-            Donate Today!
+              Donate Today!
             </h2>
 
             <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-[#cfcfcf]">
-              Contribute to the future of cryptocurrency and blockchain technology by donating to our club.
+              Contribute to the future of cryptocurrency and blockchain
+              technology by donating to our club.
             </p>
 
             <form className="mx-auto mt-10 flex max-w-md gap-x-4">
@@ -37,7 +40,7 @@ const Donation = () => {
                 className="flex-none rounded-md text-white btn bg-[#ff2032]"
               >
                 <a href="" className="uppercase">
-                Donate
+                  Donate
                 </a>
               </button>
             </form>
