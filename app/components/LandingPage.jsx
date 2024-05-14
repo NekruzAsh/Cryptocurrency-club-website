@@ -15,7 +15,7 @@ const LandingPage = () => {
         <div className="mt-44 md:mt-0 grid grid-cols-1 md:grid md:grid-cols-2 gap-6 lg:gap-16">
           <div className="z-10 bg-[#030303] bg-opacity-70 rounded-lg p-4">
             <div className="text-left">
-              <h3 className="uppercase text-[#bbfe64]">
+              <h3 className="uppercase text-[#FF204E]">
                 University of Cincinnati
               </h3>
               <h1 className="flex uppercase text-white items-center">
@@ -28,10 +28,10 @@ const LandingPage = () => {
               </h1>
               <p className="mt-2 text-[#cfcfcf] text-md lg:text-lg box box-border lg:h-[120px] lg:w-[500px]">
                 The{" "}
-                <span className="text-[#bbfe64]">UC Cryptocurrency Club</span>{" "}
+                <span className="text-[#FF204E]">UC Cryptocurrency Club</span>{" "}
                 offers students hands-on learning in blockchain and{" "}
                 cryptocurrency, supported by industry donations. With access to{" "}
-                <span className="text-[#bbfe64]">cutting-edge technology</span>{" "}
+                <span className="text-[#FF204E]">cutting-edge technology</span>{" "}
                 and a dedicated fund, students are prepared for the digital
                 economy and drive innovation at UC.
               </p>

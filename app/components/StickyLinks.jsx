@@ -7,7 +7,7 @@ const StickyLinks = () => {
     
       <div className="fixed z-20 lg:left-32 lg:top-4 max-lg:hidden">
         <Image
-          className="opacity-60"
+          className="opacity-30"
           src="/images/crypto_logo.svg"
           alt="UC Cryptocurrency Club"
           width={110}

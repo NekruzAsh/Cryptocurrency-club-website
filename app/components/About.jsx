@@ -47,7 +47,7 @@ const About = () => {
         >
           <div className="mt-28">
             <h2 className="text-[#cfcfcf] mx-auto">
-              <span className=" text-[#bbfe64]">//&nbsp;</span> Meet our team
+              <span className=" text-[#FF204E]">//&nbsp;</span> Meet our team
             </h2>
             <p className="text-lg text-[#707173] mx-auto text-center md:mx-0">
               Get to know the talented individuals shaping our vision

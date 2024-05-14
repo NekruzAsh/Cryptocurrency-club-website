@@ -8,7 +8,7 @@ const ClubResearch = () => {
     <div id="clubresearch" className="w-full md:h-screen p-2 flex">
       <div className="max-w-[1240px] m-auto items-center text-center">
         <div className="mb-12 mt-12 md:mt-0">
-          <p className="text-lg text-[#bbfe64]">
+          <p className="text-lg text-[#FF204E]">
           From members of our club
           </p>
           <h2 className="text-[#cfcfcf] mb-2 mt-4">Club research</h2>
