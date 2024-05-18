@@ -65,7 +65,7 @@ const About = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Truong (Jack) Luu</h2>
-              <h4 className="text-[#bbfe64]">Research Team Lead</h4>
+              <h4 className="text-[#FF204E]">Research Team Lead</h4>
               <p className="text-sm text-[#cfcfcf]">
                 Truong (Jack) Luu is a Ph.D. candidate in Information Systems,
                 researching information privacy, trust, and cybersecurity in
@@ -74,9 +74,7 @@ const About = () => {
                 Information Systems, Computers in Human Behavior, and the
                 Journal of Information Science, among others. He received the
                 University of Cincinnati's Digital Futures Fellowship for his
-                research on cybercrime in decentralized fintech. Jack teaches
-                computer programming, applied machine learning/AI, and
-                cybersecurity at both undergraduate and graduate levels.
+                research on cybercrime in decentralized fintech.
               </p>
             </div>
           </div>
@@ -90,7 +88,7 @@ const About = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Benjamin Franks</h2>
-              <h4 className="text-[#bbfe64]">Treasurer</h4>
+              <h4 className="text-[#FF204E]">Treasurer</h4>
               <p className="text-[#cfcfcf]">
                 Benjamin Franks is a passionate student at the intersection of
                 Cybersecurity and Blockchain technology. His goal as Treasurer
