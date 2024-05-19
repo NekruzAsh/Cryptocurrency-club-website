@@ -11,6 +11,7 @@ export const metadata = {
 //components
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
+import Web3 from "./components/Web3";
 import Research from "./components/Research";
 import StickyLinks from "./components/StickyLinks";
 import About from "./components/About";
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <StickyLinks />
         <LandingPage />
+        <Web3 />
         <Research />
         <About />
         <ClubResearch />
