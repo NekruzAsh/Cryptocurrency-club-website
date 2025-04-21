@@ -58,7 +58,7 @@ const About = () => {
           <div className="card w-[450px] glass">
             <figure>
               <img
-                className="pt-8 rounded-lg h-80 w-96"
+                className="pt-8 rounded-lg h-75 w-96"
                 src="/images/jack.jpeg"
                 alt="Jack"
               />
@@ -84,9 +84,9 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="card w-[450px] h-[550px] glass">
+          <div className="card w-[450px] h-[800px] glass">
             <figure>
-              <img className="pt-8 rounded-lg h-80 w-96" src="/images/ben.jpg" alt="Ben" />
+              <img className="pt-8 rounded-lg h-75 w-96" src="/images/ben.jpg" alt="Ben" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Benjamin Franks</h2>
